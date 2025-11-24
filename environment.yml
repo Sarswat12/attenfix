@@ -1,0 +1,24 @@
+name: face-attendance
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - opencv
+  - dlib
+  - cmake
+  - pip:
+    - flask
+    - flask-sqlalchemy
+    - flask-migrate
+    - flask-jwt-extended
+    - sqlalchemy
+    - PyMySQL
+    - gunicorn
+    - face-recognition
+    - face-recognition-models
+    - pandas
+    - requests
+    - python-dotenv
+    - Pillow
